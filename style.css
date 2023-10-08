@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    border: 1px solid white;
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 50%;
+}
+
+
+
+.jokes-btn{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.jokes-btn:hover{
+    background-color: lightgray;
+}
